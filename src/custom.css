@@ -1,0 +1,27 @@
+.hero-fade-in {
+    animation: fadeIn 2s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .custom-button {
+    background-color: #1e3a8a; /* Tailwind's blue-900 */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+  }
+  
+  .custom-button:hover {
+    background-color: #2563eb; /* Tailwind's blue-500 */
+    transform: scale(1.05);
+  }
+  
