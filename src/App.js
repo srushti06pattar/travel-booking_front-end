@@ -5,18 +5,26 @@ import Homepage from './Pages/Homepage';// Adjust path if needed
 import SearchPage from './Pages/SearchPage'; // Adjust path if needed
 import ContactPage from './Pages/ContactPage'; // Adjust path if needed
 import Footer from './Components/Footer';
+import SignupPage from './Pages/SignupPage';
+import LoginPage from './Pages/LoginPage';
+import { UserProvider } from "./UserContext"; 
 
 const App = () => {
   return (
-    <Router>
+    <UserProvider>
+      <Router>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Homepage />} />
+        <Route path="/homepage" element={<Homepage />} />
         <Route path="/search" element={<SearchPage />} />
         <Route path="/contactpage" element={<ContactPage />} />
         <Route path="'/footer'" element={<Footer/>}/>
+        <Route path='/signupPage' element={<SignupPage/>}/>
+        <Route path="/" element={<LoginPage/>}/>
+
       </Routes>
     </Router>
+    </UserProvider>
   );
 };
 
