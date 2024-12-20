@@ -7,11 +7,12 @@ import ContactPage from './Pages/ContactPage'; // Adjust path if needed
 import Footer from './Components/Footer';
 import SignupPage from './Pages/SignupPage';
 import LoginPage from './Pages/LoginPage';
-import { UserProvider } from "./UserContext"; 
+import ProfilePage from './Pages/ProfilePage';
+
 
 const App = () => {
   return (
-    <UserProvider>
+  
       <Router>
       <Navbar />
       <Routes>
@@ -20,11 +21,12 @@ const App = () => {
         <Route path="/contactpage" element={<ContactPage />} />
         <Route path="'/footer'" element={<Footer/>}/>
         <Route path='/signupPage' element={<SignupPage/>}/>
-        <Route path="/" element={<LoginPage/>}/>
+        <Route path="/loginPage" element={<LoginPage/>}/>
+        <Route path='/profilePage' element={<ProfilePage/>}/>
 
       </Routes>
     </Router>
-    </UserProvider>
+   
   );
 };
 

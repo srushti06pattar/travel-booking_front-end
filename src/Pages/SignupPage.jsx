@@ -1,6 +1,6 @@
-import React, { useState, useContext } from "react";
-import { useNavigate, Link } from "react-router-dom";
-import { UserContext } from "../UserContext";
+import React, { useState } from "react";
+import { useNavigate,Link} from "react-router-dom";
+
 
 const SignUpPage = () => {
   const navigate=useNavigate();
@@ -15,7 +15,7 @@ const SignUpPage = () => {
   const handleSubmit=(e)=>{
     e.preventDefault();
     localStorage.setItem("user",JSON.stringify(input));
-    navigate("/loginpage");
+    navigate("/loginPage");
   }
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
