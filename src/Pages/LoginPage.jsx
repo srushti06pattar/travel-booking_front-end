@@ -42,7 +42,7 @@ const LoginPage = () => {
             />
           </div>
           <div className="mb-4">
-            <label className="block text-gray-700 text-sm mb-2">Password</label>
+            <label className="block text-black-700 text-sm mb-2">Password</label>
             <input
               name="password"
               type="password"
