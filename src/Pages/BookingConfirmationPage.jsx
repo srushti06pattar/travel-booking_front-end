@@ -28,7 +28,7 @@ const ConfirmationPage = () => {
 
   return (
     <div className="p-8 bg-gradient-to-r from-green-100 via-blue-100 to-purple-100 min-h-screen">
-      <h2 className="text-3xl font-bold text-center text-green-800 mb-6">Booking Confirmation</h2>
+      <h2 className="text-3xl font-bold text-center text-red-800 mb-6">Booking Confirmation</h2>
       {booking ? (
         <div className="p-6 border rounded-lg shadow-lg bg-white hover:shadow-2xl transition-shadow duration-300 transform hover:-translate-y-1 hover:scale-105">
           <p className="text-lg font-semibold text-blue-600">
