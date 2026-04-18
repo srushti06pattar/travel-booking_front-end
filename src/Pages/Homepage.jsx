@@ -89,7 +89,7 @@ const Homepage = () => {
           <h1 className="text-4xl md:text-6xl font-extrabold mb-4 text-yellow-400 drop-shadow-lg">
             Explore the World
           </h1>
-          <p className="text-lg md:text-xl mb-6 text-yellow-200 drop-shadow-md">
+          <p className="text-lg md:text-xl mb-6 text-green-200 drop-shadow-md">
             Plan your perfect vacation today!
           </p>
           <div className="mb-6">
