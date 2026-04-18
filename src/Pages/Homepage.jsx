@@ -42,7 +42,7 @@ const Homepage = () => {
       title: "Adventure",
       description:
         "Explore the wild with thrilling adventures, mountain hikes, and safaris.",
-      color: "text-red-600",
+      color: "text-green-600",
     },
     {
       img: beachImage,
