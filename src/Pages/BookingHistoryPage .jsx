@@ -11,7 +11,7 @@ const HistoryPage = () => {
   };
 
   return (
-    <div className="p-8 bg-gradient-to-r from-pink-100 via-blue-100 to-purple-100 min-h-screen">
+    <div className="p-8 bg-gradient-to-r from-red-100 via-blue-100 to-purple-100 min-h-screen">
       <h2 className="text-3xl font-bold text-center text-purple-800 mb-6">Booking History</h2>
       {bookingHistory.length > 0 ? (
         <ul className="space-y-6">
