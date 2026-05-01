@@ -42,7 +42,7 @@ const ProfilePage = () => {
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
-      <div className="bg-white p-8 rounded-lg shadow-lg w-full max-w-md">
+      <div className="bg-blue p-8 rounded-lg shadow-lg w-full max-w-md">
         <h2 className="text-2xl font-bold mb-6 text-center">Update Profile</h2>
         <form onSubmit={handleSubmit} className="space-y-4">
           {/* Name Input */}
